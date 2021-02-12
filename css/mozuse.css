@@ -1,0 +1,68 @@
+
+#navbarCOlor{
+  box-shadow: 2px 2px 5px #3292a6;
+  background:#fff;
+  opacity:0.7;
+   border-bottom:solid 3px #008ed6;
+   }
+   #navbarCOlor .nav-link:hover{
+     color:#3292a6;
+   }
+#fastSection{
+color:#333;
+background-image:url('../img/mountavarast.jpg');
+background-size:cover;
+background-attachment: fixed;
+height:940px;
+position:relative;
+}
+#primary-overlay{
+position:absolute;
+top:0;
+left:0;
+width: 100%;
+margin-top:-1px;
+background-color:rgba(50,146,156,0.7);
+height:942px;
+}
+ #beFAst{
+   border:solid 1px #3292a6;
+   padding:-5px;
+ }
+#colorINfo{
+  color:#3292a6;
+}
+#bginfo{
+  background-color:#3292a6;
+}
+ #margin5{
+   margin-top:-60px;
+ }
+ #Writer:hover{
+   background:#3292a6;
+   color:#fff;
+ }
+#Writer:hover #faColor{
+  color:#fff;
+}
+#ifoBackground{
+  background:#3292a6;
+}
+#footer-main{
+    background:#3292a6;
+  }
+  #design{
+    text-decoration: none;
+  }
+}
+@media(max-width:767px){
+#fastSection .display-1{
+  font-size:50px;
+}
+#fastSection{
+  height:360px;
+}
+#primary-overlay{
+  height:362px;
+}
+}
